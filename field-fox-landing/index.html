@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Field-Fox helps growers turn field data into practical decisions."
+  />
+  <title>Field-Fox | Smarter Fields, Clearer Decisions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Field-Fox home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img">
+          <path d="M15 18 28 25 32 16 36 25 49 18 45 42 32 51 19 42Z" />
+          <path d="M23 34 29 36M41 34 35 36" />
+          <path d="M29 43h6" />
+        </svg>
+      </span>
+      <span>Field-Fox</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Get started</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Practical intelligence for agriculture</p>
+        <h1>Know your fields.<br /><em>Grow with confidence.</em></h1>
+        <p class="hero-text">
+          Field-Fox brings sensor readings, field observations, and farm
+          activity into one clear view—helping growers make faster, better
+          decisions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Start exploring</a>
+          <a class="button button-secondary" href="#features">
+            See what it does
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="hero-proof">
+          <div>
+            <strong>24/7</strong>
+            <span>Field visibility</span>
+          </div>
+          <div>
+            <strong>One</strong>
+            <span>Connected dashboard</span>
+          </div>
+          <div>
+            <strong>Less</strong>
+            <span>Guesswork</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Field-Fox dashboard preview">
+        <div class="sun-glow"></div>
+        <div class="dashboard-card">
+          <div class="dashboard-top">
+            <div>
+              <p>North Field</p>
+              <h2>Field Overview</h2>
+            </div>
+            <span class="status"><i></i> Live</span>
+          </div>
+
+          <div class="metric-grid">
+            <article>
+              <span>Soil moisture</span>
+              <strong>68%</strong>
+              <small>Optimal range</small>
+            </article>
+            <article>
+              <span>Temperature</span>
+              <strong>72°</strong>
+              <small>Stable today</small>
+            </article>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-heading">
+              <span>Moisture trend</span>
+              <small>Last 7 days</small>
+            </div>
+            <svg viewBox="0 0 500 190" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#b8d86a" stop-opacity=".38" />
+                  <stop offset="100%" stop-color="#b8d86a" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path class="grid-line" d="M0 40H500M0 95H500M0 150H500" />
+              <path
+                class="chart-area"
+                d="M0 143 C50 129, 72 142, 112 116 S180 64, 225 92 S292 138, 330 104 S390 52, 425 69 S470 76,500 43 V190 H0Z"
+              />
+              <path
+                class="chart-line"
+                d="M0 143 C50 129, 72 142, 112 116 S180 64, 225 92 S292 138, 330 104 S390 52, 425 69 S470 76,500 43"
+              />
+            </svg>
+            <div class="chart-labels">
+              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span>
+              <span>Fri</span><span>Sat</span><span>Sun</span>
+            </div>
+          </div>
+
+          <div class="recommendation">
+            <span class="recommendation-icon">✦</span>
+            <div>
+              <strong>Field insight</strong>
+              <p>Moisture is trending upward. Delay irrigation in Zone 3.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-one">
+          <span>●</span> Sensors connected
+        </div>
+        <div class="floating-tag tag-two">
+          <span>✓</span> Conditions healthy
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> Built for the work in front of you</p>
+        <h2>Everything you need to understand what is happening in the field.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <div class="feature-icon">⌁</div>
+          <h3>Live field data</h3>
+          <p>
+            Track soil, weather, and environmental conditions without digging
+            through disconnected tools.
+          </p>
+        </article>
+
+        <article class="feature-card featured">
+          <span class="feature-number">02</span>
+          <div class="feature-icon">⌁</div>
+          <h3>Clear recommendations</h3>
+          <p>
+            Turn raw readings into practical next steps for irrigation,
+            scouting, and daily field work.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <div class="feature-icon">⌁</div>
+          <h3>Farm-wide visibility</h3>
+          <p>
+            Organize farms, fields, sections, and sensor nodes in a single,
+            easy-to-navigate system.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section" id="how-it-works">
+      <div class="process-copy">
+        <p class="eyebrow light"><span></span> Simple by design</p>
+        <h2>From the field to a decision in three steps.</h2>
+        <p>
+          Field-Fox is designed to make agricultural data useful—not
+          overwhelming.
+        </p>
+      </div>
+
+      <div class="steps">
+        <article>
+          <span>1</span>
+          <div>
+            <h3>Connect</h3>
+            <p>Bring in your sensors, field records, and environmental data.</p>
+          </div>
+        </article>
+        <article>
+          <span>2</span>
+          <div>
+            <h3>Understand</h3>
+            <p>See current conditions, changes over time, and important alerts.</p>
+          </div>
+        </article>
+        <article>
+          <span>3</span>
+          <div>
+            <h3>Act</h3>
+            <p>Use clear insights to plan work and improve field outcomes.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-card">
+        <p class="eyebrow"><span></span> Why Field-Fox</p>
+        <h2>Technology should work with the land—not distract from it.</h2>
+        <p>
+          Field-Fox is an agricultural technology platform focused on making
+          farm data understandable, accessible, and useful for the people who
+          work with it every day.
+        </p>
+      </div>
+      <div class="field-pattern" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div>
+        <p class="eyebrow light"><span></span> Start building smarter fields</p>
+        <h2>Bring clarity to your next growing season.</h2>
+      </div>
+      <a class="button button-light" href="mailto:hello@field-fox.com">
+        Contact Field-Fox
+        <span aria-hidden="true">→</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <path d="M15 18 28 25 32 16 36 25 49 18 45 42 32 51 19 42Z" />
+          <path d="M23 34 29 36M41 34 35 36" />
+          <path d="M29 43h6" />
+        </svg>
+      </span>
+      <span>Field-Fox</span>
+    </a>
+    <p>Smarter fields. Clearer decisions.</p>
+    <p>© <span id="year"></span> Field-Fox</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
